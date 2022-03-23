@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(84, 209, 169);
+    margin: auto 1px;
+}
+
+#heading {
+    width: 550px;
+    font-size: 19px;
+    margin: auto;
+    margin-top: 2em;
+    padding: 6px 6px;
+}
+
+.container {
+    width: 550px;
+    margin: auto;
+    margin-top: 5.5em;
+    height: auto;
+}
+
+#input {
+    width: 360px;
+    height: 200px;
+}
+
+#input h3 {
+    margin: 1px 1px;
+}
+
+#btn {
+    font-size: 3px;
+    margin: 1px 1px;
+    position: relative;
+    left: 9rem;
+}
+
+#areatxt {
+    height: 40px;
+    padding: 1px 1px;
+    margin: 1px 1px;
+}
+
+.title {
+    padding: 1px 1px;
+    height: 14px;
+    font-size: 12px;
+}
+
+#btn:hover {
+    background-color: rgb(51, 238, 107);
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 9px;
+}

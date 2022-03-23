@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="notes.css">
+    <link rel="stylesheet" href="phone.css" media="screen and (max-width:760px)">
+</head>
+
+<body>
+    <h1 id="heading">STICKY NOTES</h1>
+    <div class="container">
+        <div id="input">
+            <h3>Add Notes</h3>
+            <textarea class="title">Title</textarea>
+            <textarea name="txtarea" id="areatxt" cols="30" rows="10">
+             
+            </textarea>
+            <button id="btn">Add Note</button>
+        </div>
+
+
+        <div class="notes">
+            <h1>YOUR NOTES
+                <div class="search">
+                    <input id="search" type="text" placeholder="Search">
+                    <span id="enter">&#x1F50D</span>
+                </div>
+            </h1>
+            <div class="containNotes"></div>
+            <button id="delAll" onclick=deleteAll()>Delete All</button>
+        </div>
+
+    </div>
+    <script src="notes.js"></script>
+</body>
+
+</html>
